@@ -16,8 +16,9 @@ int main()
 
 
 //playing with these code lines to debug related functions
-	// once debugged will use Switch statement to ask whether the user wants to 1. View Database, 2.Add to Database, 3. Modify(including deleting) an entry, 4. Search by name, keyword, or color 
-
+// once debugged will use Switch statement to ask whether the user wants to 1. View Database, 2.Add to Database, 3. Modify(including deleting) an entry, 4. Search by name, keyword, or color 
+// the method im using for data manipulation is a vector of class instances of Stone type initialized from a text file. 
+// The archive writes and reads to a text file to be used until I can find a better substitue to store database once program terminates.
 
 
 	/*
