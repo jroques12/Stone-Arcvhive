@@ -8,6 +8,10 @@
 
 using namespace std;
 
+/* this is the header file with the functions and class declaration necessary to use the program
+Want to add more class members once I get the hang of storing and reading the database into the program
+from Stone_Archive.txt file*/
+
 class Stone {
 public:
 
@@ -34,7 +38,7 @@ string toLowerCaseString(std::string& str1)
 	}
 	return str1;
 }
-//takes a string argument converts all characters in string to lower case and returns the lower case version of the argument string
+//takes a string argument converts all characters in string to lower case and returns the lower case version of the string arguement 
 vector<Stone> archiveVecSetup(vector<Stone>& sVec)
 {
 	string border;
